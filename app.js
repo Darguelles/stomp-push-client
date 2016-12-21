@@ -28,7 +28,10 @@ listener.addListener("data", function (d) {
         if(subscription){
             unsubscribe();
         }
-        client.connect({}, function (frame) {
+        var headers = {
+            Authorization: "Bearer t96bX93Svtoz3R92ey0eLABsBJhn"
+        }
+        client.connect(headers, function (frame) {
             console.log('Connected to Stomp');
             console.log('Waiting for messages...')
             subscription = client.subscribe(config.subscriptionPath + channel, successCallback);

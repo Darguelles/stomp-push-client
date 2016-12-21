@@ -1,4 +1,4 @@
 {
-  "serverRegistrationUri": "http://localhost:8080/register",
+  "serverRegistrationUri": "http://digitalves-test.apigee.net/ebond-pushnotifications-apiproxy/register",
   "subscriptionPath": "/receiver/push-client/"
 }
