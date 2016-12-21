@@ -1,0 +1,4 @@
+{
+  "serverRegistrationUri": "http://localhost:8080/register",
+  "subscriptionPath": "/receiver/push-client/"
+}
