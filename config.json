@@ -1,4 +1,8 @@
 {
   "serverRegistrationUri": "http://digitalves-test.apigee.net/ebond-pushnotifications-apiproxy/register",
-  "subscriptionPath": "/receiver/push-client/"
+  "subscriptionPath": "/receiver/push-client/",
+  "apigeeRequestTokenUri": "https://digitalves-test.apigee.net/oauth/client_credential/accesstoken",
+  "apigeeClientId":"2ToKGMgptcrlwsIdzrjKjJHlnYr8OvVG",
+  "apigeeClientSecret":"5zKoRpynhqQUA3zF",
+  "apigeeGrantType":"client_credentials"
 }
