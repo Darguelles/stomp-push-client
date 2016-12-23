@@ -4,5 +4,6 @@
   "apigeeRequestTokenUri": "https://digitalves-test.apigee.net/oauth/client_credential/accesstoken",
   "apigeeClientId":"2ToKGMgptcrlwsIdzrjKjJHlnYr8OvVG",
   "apigeeClientSecret":"5zKoRpynhqQUA3zF",
-  "apigeeGrantType":"client_credentials"
+  "apigeeGrantType":"client_credentials",
+  "sendMessageUri":"http://digitalves-test.apigee.net/ebond-pushnotifications-apiproxy/notification/push-to/"
 }
